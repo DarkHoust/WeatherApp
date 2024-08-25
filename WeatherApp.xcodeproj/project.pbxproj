@@ -11,6 +11,7 @@
 		32D5B7942C7AFDD10091FA7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D5B7932C7AFDD10091FA7F /* ContentView.swift */; };
 		32D5B7962C7AFDD20091FA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D5B7952C7AFDD20091FA7F /* Assets.xcassets */; };
 		32D5B7992C7AFDD20091FA7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D5B7982C7AFDD20091FA7F /* Preview Assets.xcassets */; };
+		32D5B7A02C7B05B80091FA7F /* ContainerWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D5B79F2C7B05B80091FA7F /* ContainerWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		32D5B7932C7AFDD10091FA7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32D5B7952C7AFDD20091FA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D5B7982C7AFDD20091FA7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32D5B79F2C7B05B80091FA7F /* ContainerWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				32D5B7912C7AFDD10091FA7F /* WeatherAppApp.swift */,
 				32D5B7932C7AFDD10091FA7F /* ContentView.swift */,
 				32D5B7952C7AFDD20091FA7F /* Assets.xcassets */,
+				32D5B79F2C7B05B80091FA7F /* ContainerWeather.swift */,
 				32D5B7972C7AFDD20091FA7F /* Preview Content */,
 			);
 			path = WeatherApp;
@@ -139,6 +142,7 @@
 			files = (
 				32D5B7942C7AFDD10091FA7F /* ContentView.swift in Sources */,
 				32D5B7922C7AFDD10091FA7F /* WeatherAppApp.swift in Sources */,
+				32D5B7A02C7B05B80091FA7F /* ContainerWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

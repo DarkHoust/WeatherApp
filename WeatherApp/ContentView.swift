@@ -10,10 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Astana")
+                .font(.system(size: 48, weight: .bold))
+            ContainerWeather(temp: "20℃", weekDay: "Today", typeWeather: "Sunny", image: "sun.max.fill")
+                .padding(26)
+            
+            HStack {
+                Text("Forecasts for 5 days")
+                Spacer()
+            }
+            .padding(26)
+            
+            List {
+                ContainerWeather(temp: "20℃", weekDay: "Today", typeWeather: "Sunny", image: "sun.max.fill")
+                ContainerWeather(temp: "20℃", weekDay: "Today", typeWeather: "Sunny", image: "sun.max.fill")
+                ContainerWeather(temp: "20℃", weekDay: "Today", typeWeather: "Sunny", image: "sun.max.fill")
+            }
+            .listStyle(.plain)
         }
         .padding()
     }
